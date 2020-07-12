@@ -1,0 +1,69 @@
+body {
+  background-color: #C4CACA;
+}
+.main {
+  background-color: #00A4B3;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 1px outset #005C5C;
+  border-radius: 4px;
+  height: 20em;
+  width: 15em;
+  margin: auto;
+  margin-top: 12%;
+  padding: 12px;
+}
+.display {
+  background-color: #003434;
+  color: #00AAAA;
+  width: 100%;
+  height: 4em;
+  border: 1px solid #005C5C;
+  justify-content: center;
+}
+#result {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.line {
+  margin-bottom:10px;
+  display: flex;
+  Justify-content: space-between;
+}
+
+.line1 {
+  margin-bottom:10px;
+  display: flex;
+  Justify-content: space-between;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #005C5C;
+  background-image: -webkit-linear-gradient(left, #005C5C, #00AAAA, #005C5C);
+  background-image:    -moz-linear-gradient(left, #005C5C, #00AAAA, #005C5C);
+  background-image:     -ms-linear-gradient(left, #005C5C, #00AAAA, #005C5C);
+  background-image:      -o-linear-gradient(left, #005C5C, #00AAAA, #005C5C);
+}
+
+.but {
+  background-color: #005C5C;
+  font-weight: 900;
+  font-size: 15px; 
+  color: #33AFAF;
+  width: 40px;
+  height: 40px;
+}
+
+button:active {
+  color: red;
+}
+
+.but#zero {
+  width: 106px;
+}
+
+.but#equal {
+  width: 106px;
+}

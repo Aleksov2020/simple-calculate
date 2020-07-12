@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title> Calculate </title>
+      <link rel="stylesheet" href="style.css">
+	  <script src="script.js"></script>
+  </head>	
+<body>
+  <div class="main">
+    <div class="display">
+      <p id="result"> 0 </p>
+	</div>
+	<hr />
+	<div class="keyboard">
+	  <div class="line">
+		<button class="but" onclick="arifm('+')"> + </button>
+		<button class="but" onclick="arifm('-')"> - </button>
+		<button class="but" onclick="arifm('*')"> × </button>
+		<button class="but" onclick="arifm('/')"> / </button>
+	  </div>
+	  <div class="line">
+		<button class="but" onclick="digit(1)"> 1 </button>
+		<button class="but" onclick="digit(2)"> 2 </button>
+		<button class="but" onclick="digit(3)"> 3 </button>
+		<button class="but" onclick="cl()"> С </button>
+	  </div>
+	  <div class="line">
+		<button class="but" onclick="digit(4)"> 4 </button>
+		<button class="but" onclick="digit(5)"> 5 </button>
+		<button class="but" onclick="digit(6)"> 6 </button>
+		<button class="but" onclick="randomized()"> R </button>
+	  </div>
+	  <div class="line">
+		<button class="but" onclick="digit(7)"> 7 </button>
+		<button class="but" onclick="digit(8)"> 8 </button>
+		<button class="but" onclick="digit(9)"> 9 </button>
+		<button class="but" onclick="clear()"> G </button>
+	  </div>
+	  <div class="line1">
+		<button class="but" id="zero" onclick="digit(0)"> 0 </button>
+		<button class="but" id="equal" onclick="arifm('answ')"> ANS	 </button>
+	  </div>
+    </div>
+  </div>
+</body>
+</html>
